@@ -43,7 +43,7 @@ def get_one_scene(s):
     frames = os.listdir(os.path.join(scene_dir, "lidar"))
     
     #print(s, frames)
-    frames.sort()
+    frames.sort(reverse=True) #wang.david.wei
 
     scene["lidar_ext"]="pcd"
     for f in frames:

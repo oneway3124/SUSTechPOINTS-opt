@@ -1,3 +1,8 @@
+
+# netstat -ano | findstr 808
+# taskkill /F /PID 15724
+
+
 import random
 import string
 
